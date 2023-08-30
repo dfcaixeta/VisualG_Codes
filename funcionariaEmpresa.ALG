@@ -1,7 +1,7 @@
 Algoritmo "funcionariaEmpresa"
 // Disciplina   : [Algoritmo e Lógica de Programação]
 // Professor   : Nelio Alves 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descrição   : Algoritmo que recebe dados de uma funcionária e imprime.
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 15/07/2023
 Var
