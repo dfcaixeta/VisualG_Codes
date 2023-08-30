@@ -1,7 +1,7 @@
 Algoritmo "testaSaidaDeDados"
 // Disciplina   : [Algoritmo e Lógica de Programação]
 // Professor   : Nelio Alves 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descrição   : Algotimo que recebe e imprime dados de entrada.
 // Autor(a)    : Daniel Caixeta
 // Data atual  : 15/07/2023
 Var
