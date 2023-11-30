@@ -19,20 +19,32 @@ Var
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
+   escreval("*** ENTRADA COM OS VALORES: ***")
+   escreval()
    escreva("Digite a largura do terreno em mts: ")
    leia(medidaLargura)
+   
    escreva("Digite o comprimento do terreno em mts: ")
    leia(medidaComprimento)
+   
    escreva("Digite o valor do metro quadrado em reais: ")
    leia(valorMetroQuadrado)
-   
+   escreval("---------")
+
+   escreval()
+   escreval("*** MEDIDAS DO TERRENO E VALOR DO MT/QUAD ***")
+
    escreval()
    escreval("A largura do terreno é: ", medidaLargura:2:2)
    escreval("O comprimentos do terreno é: ", medidaComprimento:2:2)
    escreval("O valor do metro quadrado é R$: ", valorMetroQuadrado:2:2)
+   escreval("---------")
    escreval()
    
 // Cálculo da área do terreno.
+
+   escreval("*** RESULTADOS DOS CÁLCULO ***")
+   escreval()
 
    areaDoTerreno <- (medidaLargura * MedidaComprimento)
    
@@ -43,6 +55,5 @@ Inicio
    precoTerreno <- (areaDoTerreno * valorMetroQuadrado)
    
    escreval("O preço do terreno é RS: ", precoTerreno:2:2)
-   
    
 Fimalgoritmo
