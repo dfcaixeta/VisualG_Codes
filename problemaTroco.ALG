@@ -30,7 +30,7 @@ Inicio
    
    troco <- dinheiroRecebido - (precoUnit * qtd)
    
-   escreva("O troco recebido foi de R$: ", troco:6:2)
+   escreva("O troco recebido foi de R$: ", troco:4:2)
    escreval()
 
 Fimalgoritmo
