@@ -15,7 +15,7 @@ Inicio
       
       y <- 2 * x
       
-      w <- x * (2^3)
+      w <- x * (2 ^ 3)
       
       escreval("O valor de x é:", x)
       escreval("O valor de y é:", y)
