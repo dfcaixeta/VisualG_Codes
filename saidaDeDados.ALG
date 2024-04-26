@@ -1,20 +1,20 @@
-Algoritmo "saidaDeDados"
+Algoritmo "calculaDivisaoReal"
 // Disciplina   : [Algoritmo e Lógica de Programação]
-// Professor   : Nelio Alves 
-// Descrição   : Testando a função Saída de Dados. Diferença entre o escreva e
-//               escreval.
+// Professor   : Nelio Alves
+// Descrição   : Imprime apenas o valor inteiro de um número real.
 // Autor(a)    : Daniel Caixeta
-// Data atual  : 15/07/2023
-
+// Data atual  : 16/07/2023
 Var
-// Seção de Declarações das variáveis 
+
+   a : real
+   b : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
 
-   escreval("Bom dia!") // Com quebra de linha no final.
-   escreval             // Imprime um salto de linha.
-   escreva("'Boa noite!'") // Sem quebra de linha no final.
-   escreval             // Imprime um salto de linha.
+   a <- 5.25
+   
+   b <- Int(a)  // "Recebe" apenas a parte inteira do valor real.
+
+   escreval(b)  // Imprime apenas a parte inteira do valor real.
 
 Fimalgoritmo
