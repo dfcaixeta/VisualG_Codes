@@ -17,11 +17,14 @@ Inicio
    escreval
    escreva("Digite o seu nome: ")
    leia(nome)
+   
    escreva("Digite a sua idade: ")
    leia(idade)
-   escreva("Digite o salário do mês anterior: ")
+   
+   escreva("Digite o salário do mês anterior em R$: ")
    leia(salarioAnterior)
-   escreva("Digite o salário do mês atual: ")
+   
+   escreva("Digite o salário do mês atual em R$: ")
    leia(salarioAtual)
    
    // Cálculo da média salarial
@@ -31,11 +34,15 @@ Inicio
    escreval
    escreval("Dados digitados: ")
    escreval
-   escreval("Nome = ", nome)
-   escreval("Idade = ", idade)
-   escreval("Salário anterior = ", salarioAnterior:8:2)
-   escreval("Salário atual = ", salarioAtual:8:2)
-   escreval("A média dos salário dos dois últimos meses é = ", mediaSalario:8:2)
+   escreval("Nome: ", nome)
+   
+   escreval("Idade:", idade, " anos.")
+   
+   escreval("Salário anterior é R$:", salarioAnterior:8:2)
+   
+   escreval("Salário atual é R$:", salarioAtual:8:2)
+   
+   escreval("A média dos salário dos dois últimos meses é R$:", mediaSalario:8:2)
    escreval
    escreval("Final do cálculo ...")
 
