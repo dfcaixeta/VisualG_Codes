@@ -13,8 +13,9 @@ Inicio
    a <- 5
    b <- 2
 
-   //resultado <- a / b  Cálculo com ERRO !!!
-   resultado <- a \ b  // Cálculo de divisão de inteiros.
+     resultado <- a / b  //Cálculo com ERRO !!!
+
+     //resultado <- a \ b  // Cálculo de divisão de inteiros.
                        // Usando a / temos um ERRO porque todas as divisões irão
                        // resultar em números reais, e.g., 2.5.
    
