@@ -11,7 +11,7 @@ Var
 
 Inicio
 
-   a <- 5
+   a <- 5.25
    
    b <- Int(a)  // "Recebe" apenas a parte inteira do valor real.
 
