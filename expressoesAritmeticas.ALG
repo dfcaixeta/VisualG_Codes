@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "expressoesAritmeticas"
 // Disciplina   : [Algoritmo e Lógica de Programação]
 // Professor   : Nelio Alves
 // Descrição   : Exemplos de expressões aritméticas.
